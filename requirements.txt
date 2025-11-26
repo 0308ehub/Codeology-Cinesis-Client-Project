@@ -1,0 +1,42 @@
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# File parsing
+openpyxl>=3.1.0  # Excel parsing
+xlrd>=2.0.1  # Legacy Excel support
+PyPDF2>=3.0.0  # PDF parsing
+pdfplumber>=0.10.0  # Better PDF parsing
+python-docx>=1.0.0  # Word document parsing
+
+# Data processing
+python-dateutil>=2.8.2
+phonenumbers>=8.13.0
+usaddress>=0.5.10  # Address parsing
+
+# NLP and text processing
+nltk>=3.8.0
+spacy>=3.7.0
+regex>=2023.10.0
+
+# API and web framework
+flask>=3.0.0
+flask-cors>=4.0.0
+flask-restful>=0.3.10
+
+# Database
+psycopg2-binary>=2.9.9  # PostgreSQL
+# sqlite3 is built into Python, no installation needed
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.5.0
+
